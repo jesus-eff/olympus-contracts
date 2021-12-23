@@ -62,7 +62,7 @@ const config: HardhatUserConfig = {
             chainId: chainIds.hardhat,
         },
         // Uncomment for testing.
-        // rinkeby: getChainConfig("rinkeby"),
+        rinkeby: getChainConfig("rinkeby"),
         // ropsten: getChainConfig("ropsten"),
     },
     paths: {
